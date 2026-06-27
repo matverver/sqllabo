@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-print ("First commit")
 dataset = pd.read_csv("spotify23dataset.csv")
-print(dataset.columns)
-dataset.plot()
+print("Mean year for a song to be released: "+str(dataset["released_year"].mean()))
+print("Standard deviation: "+str(dataset["released_year"].std()))
+dataset["released_year"].plot()
 plt.show()
