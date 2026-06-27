@@ -8,3 +8,4 @@ VALUES (
 'Marcos Pérez', 35, 5000
 );
 SELECT * FROM L_TRAB WHERE NOMBRE='Marcos Pérez';
+--using https://sql-editor.programiz.com/ 
